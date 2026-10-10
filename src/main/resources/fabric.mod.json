@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nolungehunger",
+  "version": "${version}",
+  "name": "No Lunge Hunger",
+  "description": "Using the spear's Lunge no longer costs hunger or saturation. Everything else stays vanilla.",
+  "authors": [
+    "Universal_XP_"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.universalxp.nolungehunger.NoLungeHunger"
+    ]
+  },
+  "mixins": [
+    "nolungehunger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

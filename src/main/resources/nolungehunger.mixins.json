@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.universalxp.nolungehunger.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ApplyExhaustionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
